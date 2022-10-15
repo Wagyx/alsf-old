@@ -391,6 +391,14 @@ VOCABULARY = {
         name: "question",
         url: "https://www.elix-lsf.fr/IMG/mp4/question_nf_1_1.mp4"
     },
+    "corps": {
+        name: "corps",
+        url: "https://www.elix-lsf.fr/IMG/mp4/corps_nm_1_1.mp4"
+    },
+    "enceinte": {
+        name: "enceinte",
+        url: "https://www.elix-lsf.fr/IMG/mp4/enceinte_adj_1_1.mp4"
+    },
     "boucle d'oreille": {
         name: "boucle d'oreille",
         url: ""
@@ -419,8 +427,6 @@ VOCABULARY = {
         name: "entendant",
         url: ""
     }
-    // corps
-    // enceinte
 
 };
 

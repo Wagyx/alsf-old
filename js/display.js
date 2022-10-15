@@ -6,34 +6,39 @@ function displayCategory(category) {
         element.className = 'list-item';
         content.appendChild(element);
 
-        if(VOCABULARY.hasOwnProperty(arg)){
-            const nameElement = document.createElement('p');
-            nameElement.className = "word";
-            nameElement.innerText = VOCABULARY[arg].name;
+        if (VOCABULARY.hasOwnProperty(arg)) {
+            const nameElement = makeWordElement(VOCABULARY[arg].name);
             element.appendChild(nameElement);
-            if (VOCABULARY[arg].url != ""){
-                const videoElement = document.createElement('video');
-                videoElement.src = VOCABULARY[arg].url;
-                videoElement.controls = true;
-                element.appendChild(videoElement);
-            }
-            else {
-                const msgElement = document.createElement('p');
-                msgElement.innerText = "Aucune vidéo n'existe pour ce mot. Vous pouvez contribuer en trouvant une photo ou une vidéo sur Elix ou ailleurs ou en tournant une vous-meme et en me l'envoyant par mail pour que je l'ajoute, merci.";
-                element.appendChild(msgElement);
-            }
-        }
-        else{
-            const nameElement = document.createElement('p');
-            nameElement.className = "word";
-            nameElement.innerText = arg;
+            const videoElement = makeVideoElement(VOCABULARY[arg].url);
+            element.appendChild(videoElement);
+        } else {
+            const nameElement = makeWordElement(arg)
             element.appendChild(nameElement);
             const msgElement = document.createElement('p');
-            msgElement.innerText = "Erreur : Ce nom a un problème.";
+            msgElement.innerText = "Erreur : Ce nom n'est pas dans la base de données. Veuillez en informer l'administrateur, s'il vous plait.";
             element.appendChild(msgElement);
         }
-
     }
+}
+
+function makeWordElement(name) {
+    const nameElement = document.createElement('p');
+    nameElement.className = "word";
+    nameElement.innerText = name;
+    return nameElement;
+}
+
+function makeVideoElement(url) {
+    let element;
+    if (url != "") {
+        element = document.createElement('video');
+        element.src = url;
+        element.controls = true;
+    } else {
+        element = document.createElement('p');
+        element.innerText = "Aucune vidéo n'a été trouvé pour ce mot. Vous pouvez contribuer en trouvant une photo ou une vidéo sur Elix ou ailleurs ou en tournant une vous-meme et en l'envoyant à l'administrateur par mail pour qu'elle soit ajoutée, merci.";
+    }
+    return element;
 }
 
 function displayList() {
@@ -46,10 +51,8 @@ function displayList() {
         element.className = 'list-item';
         element.onclick = displayVideo;
         content.appendChild(element);
-        
-        const nameElement = document.createElement('p');
-        nameElement.className = "word";
-        nameElement.innerText = VOCABULARY[arg].name;
+
+        const nameElement = makeWordElement(VOCABULARY[arg].name)
         nameElement.onclick = displayVideo;
         element.appendChild(nameElement);
     }
@@ -62,9 +65,7 @@ function displayVideo(event) {
     }
     if ((element.className == 'list-item') && (element.children.length == 1)) {
         const name = element.children[0].innerText;
-        videoElement = document.createElement("video");
-        videoElement.src = VOCABULARY[name].url;
-        videoElement.controls = true;
+        const videoElement = makeVideoElement(VOCABULARY[name].url);
         element.appendChild(videoElement);
     }
 }
