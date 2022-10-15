@@ -271,6 +271,11 @@ LESSONS = {
             "entendant"
         ]
     },
+    "Seance 2": {
+        name: "mime",
+        words: [
+        ]
+    },
     "Seance 3": {
         name: "couleurs",
         words: ["couleur",
@@ -292,7 +297,17 @@ LESSONS = {
             "vif",
             "transparent"
         ]
+    },
+    "Seance 4": {
+        name: "corps",
+        words: [
+        ]
     }
+    // "Seance ": {
+    //     name: "",
+    //     words: [
+    //     ]
+    // },
 
 };
 

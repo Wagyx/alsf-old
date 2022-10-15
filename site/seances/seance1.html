@@ -13,7 +13,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="../../assets/css/main.css" />
 	<link rel="stylesheet" href="../../css/gallery.css" />
-    <script type="text/javascript" src="../../js/database.js"></script>
+	<script type="text/javascript" src="../../js/database.js"></script>
 
 </head>
 
@@ -54,18 +54,10 @@
 				<div class="inner">
 					<div class="container">
 						<div id="content">
-
 							<!-- Content -->
-
 							<article>
 								<div id="galleryContent"></div>
-								<script type="text/javascript" src='../../js/display.js'> </script>
-								<script>
-									const words = LESSONS["Seance 1"];
-									displayCategory(words);
-								</script>
 							</article>
-
 						</div>
 					</div>
 				</div>
@@ -75,10 +67,18 @@
 		<!-- Footer Wrapper -->
 		<div w3-include-html="../../footer.html"></div>
 
-
 	</div>
 
 	<!-- Scripts -->
+	<script type="text/javascript">
+		includeHTML();
+	</script>
+	<script type="text/javascript" src='../../js/display.js'> </script>
+	<script>
+		const words = LESSONS["Seance 1"];
+		displayCategory(words);
+	</script>
+
 	<script src="../../assets/js/jquery.min.js"></script>
 	<script src="../../assets/js/jquery.dropotron.min.js"></script>
 	<script src="../../assets/js/browser.min.js"></script>
