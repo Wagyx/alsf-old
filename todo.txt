@@ -1,4 +1,4 @@
 rajouter mots à la bdd
 envoyer mail
-
+rajouter info supplémentaire : ressources, restau, services ...
 icones catégories

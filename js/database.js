@@ -11,8 +11,8 @@ VOCABULARY = {
         name: "ça va",
         url: "https://www.elix-lsf.fr/IMG/mp4/cava_int_10_6-3.mp4"
     },
-    "etre en forme": {
-        name: "etre en forme",
+    "être en forme": {
+        name: "être en forme",
         url: "https://www.elix-lsf.fr/IMG/mp4/enforme_adj_1_2.mp4"
     },
     "oui": {
@@ -35,20 +35,20 @@ VOCABULARY = {
         name: "thé",
         url: "https://www.elix-lsf.fr/IMG/mp4/the.mp4"
     },
-    "etre en retard": {
-        name: "etre en retard",
+    "être en retard": {
+        name: "être en retard",
         url: "https://www.elix-lsf.fr/IMG/mp4/retard2.mp4"
     },
-    "etre fatigué": {
-        name: "etre fatigué",
+    "être fatigué": {
+        name: "être fatigué",
         url: "https://www.elix-lsf.fr/IMG/mp4/fatigue_adj_1_6.mp4"
     },
-    "etre malade": {
-        name: "etre malade",
+    "être malade": {
+        name: "être malade",
         url: "https://www.elix-lsf.fr/IMG/mp4/malade-3.mp4"
     },
-    "s'il vous plait": {
-        name: "s'il vous plait",
+    "s'il vous plaît": {
+        name: "s'il vous plaît",
         url: "https://www.elix-lsf.fr/IMG/mp4/02252.mp4"
     },
     "pardon": {
@@ -67,11 +67,10 @@ VOCABULARY = {
         name: "sourd",
         url: "https://www.elix-lsf.fr/IMG/mp4/sourd.mp4"
     },
-    "entendant": {
-        name: "entendant",
-        url: ""
+    "boisson": {
+        name: "boisson",
+        url: "https://www.elix-lsf.fr/IMG/mp4/boisson_nf_1_1.mp4"
     },
-
     "couleur": {
         name: "couleur",
         url: "https://www.elix-lsf.fr/IMG/mp4/couleur.mp4"
@@ -120,12 +119,12 @@ VOCABULARY = {
         name: "orange",
         url: "https://www.elix-lsf.fr/IMG/mp4/orange_adj_1_2.mp4"
     },
-    "or": {
-        name: "or",
+    "or (métal)": {
+        name: "or (métal)",
         url: "https://www.elix-lsf.fr/IMG/mp4/or_nm_1_1.mp4"
     },
-    "argent": {
-        name: "argent",
+    "argent (métal)": {
+        name: "argent (métal)",
         url: "https://www.elix-lsf.fr/IMG/mp4/argent_nm_1_1.mp4"
     },
     "clair": {
@@ -144,7 +143,6 @@ VOCABULARY = {
         name: "transparent",
         url: "https://www.elix-lsf.fr/IMG/mp4/transparent_adj_1_2.mp4"
     },
-
     "manger": {
         name: "manger",
         url: "https://www.elix-lsf.fr/IMG/mp4/00280.mp4"
@@ -240,8 +238,189 @@ VOCABULARY = {
     "pêcher (à la ligne)": {
         name: "pêcher (à la ligne)",
         url: "https://www.elix-lsf.fr/IMG/mp4/pecher_1_2.mp4"
+    },
+    "fleur": {
+        name: "fleur",
+        url: "https://www.elix-lsf.fr/IMG/mp4/fleur_nf_1_1.mp4"
+    },
+    "apprécier": {
+        name: "apprécier",
+        url: "https://www.elix-lsf.fr/IMG/mp4/aimer_v_1_6-2.mp4"
+    },
+    "détester": {
+        name: "détester",
+        url: "https://www.elix-lsf.fr/IMG/mp4/detester_v_1_1.mp4"
+    },
+    "ne pas aimer": {
+        name: "ne pas aimer",
+        url: "https://www.elix-lsf.fr/IMG/mp4/nepasaimer_v_10_6.mp4"
+    },
+    "réfrigérateur": {
+        name: "réfrigérateur",
+        url: "https://www.elix-lsf.fr/IMG/mp4/refrigerateur_nm_1_1.mp4"
+    },
+    "congélateur": {
+        name: "congélateur",
+        url: "https://www.elix-lsf.fr/IMG/mp4/congelateur_nm_1_1.mp4"
+    },
+    "table": {
+        name: "table",
+        url: "https://www.elix-lsf.fr/IMG/mp4/table_nf_1_1.mp4"
+    },
+    "siège": {
+        name: "siège",
+        url: "https://www.elix-lsf.fr/IMG/mp4/00018.mp4"
+    },
+    "livre": {
+        name: "livre",
+        url: "https://www.elix-lsf.fr/IMG/mp4/livre.mp4"
+    },
+    "monnaie/argent": {
+        name: "monnaie/argent",
+        url: "https://www.elix-lsf.fr/IMG/mp4/argent-2.mp4"
+    },
+    "faire de la corde à sauter": {
+        name: "faire de la corde à sauter",
+        url: ""
+    },
+    "indien d'Amérique": {
+        name: "indien d'Amérique",
+        url: "https://www.elix-lsf.fr/IMG/mp4/00248.mp4"
+    },
+    "vache": {
+        name: "vache",
+        url: "https://www.elix-lsf.fr/IMG/mp4/vache_nf_1_6.mp4"
+    },
+    "taureau": {
+        name: "taureau",
+        url: "https://www.elix-lsf.fr/IMG/mp4/taureau_nm_1_1.mp4"
+    },
+    "éléphant": {
+        name: "éléphant",
+        url: "https://www.elix-lsf.fr/IMG/mp4/00161.mp4"
+    },
+    "boiter": {
+        name: "boiter",
+        url: "https://www.elix-lsf.fr/IMG/mp4/boiter_v_1_1.mp4"
+    },
+    "chat": {
+        name: "chat",
+        url: "https://www.elix-lsf.fr/IMG/mp4/chat_nm_1_6.mp4"
+    },
+    "homme": {
+        name: "homme",
+        url: "https://www.elix-lsf.fr/IMG/mp4/homme-2.mp4"
+    },
+    "femme": {
+        name: "femme",
+        url: "https://www.elix-lsf.fr/IMG/mp4/femme-2.mp4"
+    },
+    "fille": {
+        name: "fille",
+        url: "https://www.elix-lsf.fr/IMG/mp4/fille.mp4"
+    },
+    "garçon": {
+        name: "garçon",
+        url: "https://www.elix-lsf.fr/IMG/mp4/garcon.mp4"
+    },
+    "jeune": {
+        name: "jeune",
+        url: "https://www.elix-lsf.fr/IMG/mp4/jeune_adj_1_1.mp4"
+    },
+    "vieux": {
+        name: "vieux",
+        url: "https://www.elix-lsf.fr/IMG/mp4/vieux_adj_2_1.mp4"
+    },
+    "mince": {
+        name: "mince",
+        url: "https://www.elix-lsf.fr/IMG/mp4/mince_adj_1_1.mp4"
+    },
+    "gros": {
+        name: "gros",
+        url: "https://www.elix-lsf.fr/IMG/mp4/gros_adj_1_1.mp4"
+    },
+    "visage": {
+        name: "visage",
+        url: "https://www.elix-lsf.fr/IMG/mp4/visage_nm_1_1.mp4"
+    },
+    "langue": {
+        name: "langue",
+        url: "https://www.elix-lsf.fr/IMG/mp4/langue_nf_2_1.mp4"
+    },
+    "sourcil": {
+        name: "sourcil",
+        url: "https://www.elix-lsf.fr/IMG/mp4/soucils.mp4"
+    },
+    "cils": {
+        name: "cils",
+        url: "https://www.elix-lsf.fr/IMG/mp4/cil_nm_1_1.mp4"
+    },
+    "accueil": {
+        name: "accueil",
+        url: "https://www.elix-lsf.fr/IMG/mp4/34_accueil_1__nm_1td001-encoded.mp4"
+    },
+    "scie": {
+        name: "scie",
+        url: "https://www.elix-lsf.fr/IMG/mp4/scie_nf_1_1.mp4"
+    },
+    "sucette": {
+        name: "sucette",
+        url: "https://www.elix-lsf.fr/IMG/mp4/sucette_nf_1_1.mp4"
+    },
+    "glace": {
+        name: "glace",
+        url: "https://www.elix-lsf.fr/IMG/mp4/glace_nf_2_1.mp4"
+    },
+    "loupe": {
+        name: "loupe",
+        url: "https://www.elix-lsf.fr/IMG/mp4/loupe_nf_2_1.mp4"
+    },
+    "bowling": {
+        name: "bowling",
+        url: "https://www.elix-lsf.fr/IMG/mp4/bowling_nm_1_1.mp4"
+    },
+    "lunettes": {
+        name: "lunettes",
+        url: "https://www.elix-lsf.fr/IMG/mp4/lunettes_nfp_1_1.mp4"
+    },
+    "scooter": {
+        name: "scooter",
+        url: "https://www.elix-lsf.fr/IMG/mp4/scooter_nm_1_6.mp4"
+    },
+    "question": {
+        name: "question",
+        url: "https://www.elix-lsf.fr/IMG/mp4/question_nf_1_1.mp4"
+    },
+    "boucle d'oreille": {
+        name: "boucle d'oreille",
+        url: ""
+    },
+    "menton": {
+        name: "menton",
+        url: ""
+    },
+    "hache": {
+        name: "hache",
+        url: ""
+    },
+    "petit": {
+        name: "petit",
+        url: ""
+    },
+    "cow-boy": {
+        name: "cow-boy",
+        url: ""
+    },
+    "aimer": {
+        name: "aimer",
+        url: ""
+    },
+    "entendant": {
+        name: "entendant",
+        url: ""
     }
-
+    // corps
+    // enceinte
 
 };
 
@@ -254,26 +433,46 @@ LESSONS = {
             "bonjour",
             "au revoir",
             "ça va",
-            "etre en forme",
+            "être en forme",
             "oui",
             "non",
             "pause",
             "café",
             "thé",
-            "etre en retard",
-            "etre fatigué",
-            "etre malade",
-            "s'il vous plait",
+            "être en retard",
+            "être fatigué",
+            "être malade",
+            "s'il vous plaît",
             "pardon",
             "merci",
             "toilettes",
             "sourd",
-            "entendant"
+            "entendant",
+            "manger",
+            "boire",
+            "école",
+            "accueil",
+            "voiture",
+            "eau",
+            "boisson",
         ]
     },
     "Seance 2": {
         name: "mime",
         words: [
+            "moto",
+            "vélo",
+            "scooter",
+            "aspirateur",
+            "arbre",
+            "lampe de poche",
+            "parapluie",
+            "peur",
+            "faim",
+            "sac à dos",
+            "pêcher (à la ligne)",
+            "bouteille",
+            "soif"
         ]
     },
     "Seance 3": {
@@ -290,17 +489,43 @@ LESSONS = {
             "violet",
             "marron",
             "orange",
-            "or",
-            "argent",
+            "or (métal)",
+            "argent (métal)",
             "clair",
             "foncé",
             "vif",
-            "transparent"
+            "transparent",
+            "aimer",
+            "apprécier",
+            "détester",
+            "ne pas aimer"
         ]
     },
     "Seance 4": {
         name: "corps",
         words: [
+            "homme",
+            "femme",
+            "fille",
+            "garçon",
+            "jeune",
+            "vieux",
+            "bébé",
+            "grand",
+            "petit",
+            "mince",
+            "gros",
+            "très gros",
+            "visage",
+            "cheveu",
+            "bouche",
+            "nez",
+            "oreille",
+            "oeil",
+            "langue",
+            "sourcil",
+            "cils",
+            "boucle d'oreille"
         ]
     }
     // "Seance ": {
@@ -325,8 +550,8 @@ CATEGORIES = {
             "violet",
             "marron",
             "orange",
-            "or",
-            "argent",
+            "or (métal)",
+            "argent (métal)",
             "clair",
             "foncé",
             "vif",
@@ -334,18 +559,5 @@ CATEGORIES = {
         ]
     }
     // "verbe":{name:"animaux", words:["chat",]},
-    // "animaux":{name:"animaux", words:["chat",]},
-    // "animaux":{name:"animaux", words:["chat",]},
-    // "animaux":{name:"animaux", words:["chat",]},
-
 
 };
-
-// accueil
-// chat
-// hache
-// petit
-// maigre
-// gros
-// scier
-// menton
