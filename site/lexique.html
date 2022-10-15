@@ -12,6 +12,9 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="../assets/css/main.css" />
+	<link rel="stylesheet" href="../css/gallery.css" />
+	<script type="text/javascript" src="../js/database.js"></script>
+	<script type="text/javascript" src="../js/display.js"></script>
 </head>
 
 <body class="no-sidebar is-preload">
@@ -52,14 +55,8 @@
 						<div id="content">
 							<!-- Content -->
 							<article>
-								<ul>
-									<li>
-										<a href="lessons/lesson1.html">Leçon 1</a> : Premier contact
-									</li>
-									<li>
-										<a href="lessons/lesson2.html">Leçon 2</a> : Couleurs
-									</li>
-								</ul>
+								Cliquez sur un mot pour afficher la vidéo.
+								<div id="listContent"></div>
 							</article>
 						</div>
 					</div>
@@ -75,6 +72,9 @@
 	<!-- Scripts -->
 	<script type="text/javascript">
         includeHTML();
+    </script>
+	<script type="text/javascript">
+        displayList();
     </script>
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/js/jquery.dropotron.min.js"></script>

@@ -1,5 +1,3 @@
-icone site
-finir page all vocab
 rajouter mots à la bdd
 envoyer mail
 
