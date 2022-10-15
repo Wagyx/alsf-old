@@ -248,7 +248,7 @@ VOCABULARY = {
 // "":{name:"",url:""},
 
 LESSONS = {
-    "Leçon 1": {
+    "Seance 1": {
         name: "1er contact",
         words: [
             "bonjour",
@@ -271,7 +271,7 @@ LESSONS = {
             "entendant"
         ]
     },
-    "Leçon 2": {
+    "Seance 3": {
         name: "couleurs",
         words: ["couleur",
             "bleu",
