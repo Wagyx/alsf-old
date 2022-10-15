@@ -399,6 +399,11 @@ VOCABULARY = {
         name: "enceinte",
         url: "https://www.elix-lsf.fr/IMG/mp4/enceinte_adj_1_1.mp4"
     },
+    "signe": {
+        name: "signe",
+        url: "https://www.elix-lsf.fr/IMG/mp4/signe_nm_2_2.mp4"
+    },
+    // "":{name:"",url:""},
     "boucle d'oreille": {
         name: "boucle d'oreille",
         url: ""
@@ -435,7 +440,7 @@ VOCABULARY = {
 LESSONS = {
     "Seance 1": {
         name: "1er contact",
-        words: [
+        words: ["signe",
             "bonjour",
             "au revoir",
             "ça va",
