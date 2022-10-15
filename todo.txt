@@ -1,5 +1,3 @@
-texte présentation ALSF méthode ...?
-page 404
 icone site
 finir page all vocab
 rajouter mots à la bdd
