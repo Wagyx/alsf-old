@@ -110,15 +110,22 @@
             return element;
         }
 
-
+        let remainingWordList = Object.keys(VOCABULARY);
         function randomWord() {
-            const keys = Object.keys(VOCABULARY);
-            let ind = Math.floor(Math.random() * keys.length);
-            let obj = VOCABULARY[keys[ind]];
+            let ind = Math.floor(Math.random() * remainingWordList.length);
+            let word = remainingWordList.splice(ind, 1);
+            let obj = VOCABULARY[word];
             // ignore word with no url
+            if (remainingWordList.length == 0) {
+                remainingWordList = Object.keys(VOCABULARY);
+            }
             while (obj.url == "") {
-                ind = Math.floor(Math.random() * keys.length);
-                obj = VOCABULARY[keys[ind]];
+                ind = Math.floor(Math.random() * remainingWordList.length);
+                word = remainingWordList.splice(ind, 1);
+                obj = VOCABULARY[word];
+                if (remainingWordList.length == 0) {
+                    remainingWordList = Object.keys(VOCABULARY);
+                }
             }
 
             const content = document.getElementById('randomWordContent');
@@ -146,14 +153,22 @@
 
         }
 
+        let remainingSignList = Object.keys(VOCABULARY);
         function randomSign() {
-            const keys = Object.keys(VOCABULARY);
-            let ind = Math.floor(Math.random() * keys.length);
-            let obj = VOCABULARY[keys[ind]];
+            let ind = Math.floor(Math.random() * remainingSignList.length);
+            let word = remainingSignList.splice(ind, 1);
+            let obj = VOCABULARY[word];
+            if (remainingSignList.length == 0) {
+                remainingSignList = Object.keys(VOCABULARY);
+            }
             // ignore word with no url
             while (obj.url == "") {
-                ind = Math.floor(Math.random() * keys.length);
-                obj = VOCABULARY[keys[ind]];
+                ind = Math.floor(Math.random() * remainingSignList.length);
+                word = remainingSignList.splice(ind, 1);
+                obj = VOCABULARY[word];
+                if (remainingSignList.length == 0) {
+                    remainingSignList = Object.keys(VOCABULARY);
+                }
             }
 
             const content = document.getElementById('randomSignContent');
@@ -186,7 +201,7 @@
 
         function answerSign() {
             const element = document.getElementById("signName");
-            if (element){
+            if (element) {
                 element.style.visibility = "visible";
             }
         }

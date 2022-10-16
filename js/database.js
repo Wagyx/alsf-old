@@ -7,8 +7,8 @@ VOCABULARY = {
         name: "au revoir",
         url: "https://www.elix-lsf.fr/IMG/mp4/aurevoir_nm_1_1.mp4"
     },
-    "ça va": {
-        name: "ça va",
+    "comment ça va ?": {
+        name: "comment ça va ?",
         url: "https://www.elix-lsf.fr/IMG/mp4/cava_int_10_6-3.mp4"
     },
     "être en forme": {
@@ -535,13 +535,35 @@ VOCABULARY = {
         name: "dentifrice",
         url: "https://www.elix-lsf.fr/IMG/mp4/dentifrice_nm_1_6.mp4"
     },
+    "révision": {
+        name: "révision",
+        url: "https://www.elix-lsf.fr/IMG/mp4/revision_nf_1_1.mp4"
+    },
+    "musique": {
+        name: "musique",
+        url: "https://www.elix-lsf.fr/IMG/mp4/musique_nf_2_6.mp4"
+    },
+    "moustache": {
+        name: "moustache",
+        url: "https://www.elix-lsf.fr/IMG/mp4/moustache_nf_2_1.mp4"
+    },
+    "barbe": {
+        name: "barbe",
+        url: "https://www.elix-lsf.fr/IMG/mp4/barbe_nf_1_1.mp4"
+    },
+    "rasoir": {
+        name: "rasoir",
+        url: "https://www.elix-lsf.fr/IMG/mp4/00340.mp4"
+    },
     // "":{name:"",url:""},
     // "":{name:"",url:""},
+
     // bouclé
     // tresses
     // ondulé
     // court
-    // révision
+    // caméra
+
     "faire de la corde à sauter": {
         name: "faire de la corde à sauter",
         url: ""
@@ -587,7 +609,7 @@ LESSONS = {
         words: ["signe",
             "bonjour",
             "au revoir",
-            "ça va",
+            "comment ça va ?",
             "être en forme",
             "oui",
             "non",
