@@ -279,10 +279,6 @@ VOCABULARY = {
         name: "monnaie/argent",
         url: "https://www.elix-lsf.fr/IMG/mp4/argent-2.mp4"
     },
-    "faire de la corde à sauter": {
-        name: "faire de la corde à sauter",
-        url: ""
-    },
     "indien d'Amérique": {
         name: "indien d'Amérique",
         url: "https://www.elix-lsf.fr/IMG/mp4/00248.mp4"
@@ -403,17 +399,166 @@ VOCABULARY = {
         name: "signe",
         url: "https://www.elix-lsf.fr/IMG/mp4/signe_nm_2_2.mp4"
     },
+    "lèvre": {
+        name: "lèvre",
+        url: "https://www.elix-lsf.fr/IMG/mp4/levre_nf_1_1.mp4"
+    },
+    "avant": {
+        name: "avant",
+        url: "https://www.elix-lsf.fr/IMG/mp4/avant_adv_1_1_-_copie.mp4"
+    },
+    "après": {
+        name: "après",
+        url: "https://www.elix-lsf.fr/IMG/mp4/apres_adv_1_1.mp4"
+    },
+    "partir": {
+        name: "partir",
+        url: "https://www.elix-lsf.fr/IMG/mp4/partir_v_3_6.mp4"
+    },
+    "compris": {
+        name: "compris",
+        url: "https://www.elix-lsf.fr/IMG/mp4/compris_adj_2_1.mp4"
+    },
+    "forme": {
+        name: "forme",
+        url: "https://www.elix-lsf.fr/IMG/mp4/forme_nf_1_1.mp4"
+    },
+    "beau": {
+        name: "beau",
+        url: "https://www.elix-lsf.fr/IMG/mp4/beau.mp4"
+    },
+    "moche": {
+        name: "moche",
+        url: "https://www.elix-lsf.fr/IMG/mp4/moche.mp4"
+    },
+    "pareil": {
+        name: "pareil",
+        url: "https://www.elix-lsf.fr/IMG/mp4/pareil_adj_1_1.mp4"
+    },
+    "différent": {
+        name: "différent",
+        url: "https://www.elix-lsf.fr/IMG/mp4/different_adj_1_2.mp4"
+    },
+    "interdit": {
+        name: "interdit",
+        url: "https://www.elix-lsf.fr/IMG/mp4/interdit_adj_1_6.mp4"
+    },
+    "hache": {
+        name: "hache",
+        url: "https://www.elix-lsf.fr/IMG/mp4/hache_nf_1_1.mp4"
+    },
+    "maison": {
+        name: "maison",
+        url: "https://www.elix-lsf.fr/IMG/mp4/maison_nf_1_6.mp4"
+    },
+    "sous-titre": {
+        name: "sous-titre",
+        url: "https://www.elix-lsf.fr/IMG/mp4/sous-titrer_v_1_6.mp4"
+    },
+    "télévision": {
+        name: "télévision",
+        url: "https://www.elix-lsf.fr/IMG/mp4/television_nf_1_6.mp4"
+    },
+    "traducteur": {
+        name: "traducteur",
+        url: "https://www.elix-lsf.fr/IMG/mp4/traducteur_nm_1_6.mp4"
+    },
+    "peindre": {
+        name: "peindre",
+        url: "https://www.elix-lsf.fr/IMG/mp4/peindre_v_2_1.mp4"
+    },
+    "affiche": {
+        name: "affiche",
+        url: "https://www.elix-lsf.fr/IMG/mp4/affiche_nf_1_1.mp4"
+    },
+    "dessiner": {
+        name: "dessiner",
+        url: "https://www.elix-lsf.fr/IMG/mp4/dessiner_v_1_1.mp4"
+    },
+    "écrire": {
+        name: "écrire",
+        url: "https://www.elix-lsf.fr/IMG/mp4/ecrire_v_1_1.mp4"
+    },
+    "lentille de contact": {
+        name: "lentille de contact",
+        url: "https://www.elix-lsf.fr/IMG/mp4/lentille_nf_5_6.mp4"
+    },
+    "énerver": {
+        name: "énerver",
+        url: "https://www.elix-lsf.fr/IMG/mp4/enerver_v_1_1.mp4"
+    },
+    "personne folle": {
+        name: "personne folle",
+        url: "folle https://www.elix-lsf.fr/IMG/mp4/fou_nm_1_1.mp4"
+    },
+    "avion": {
+        name: "avion",
+        url: "https://www.elix-lsf.fr/IMG/mp4/avion_nm_1_1.mp4"
+    },
+    "bateau": {
+        name: "bateau",
+        url: "https://www.elix-lsf.fr/IMG/mp4/bateau_nm_1_1.mp4"
+    },
+    "mer": {
+        name: "mer",
+        url: "https://www.elix-lsf.fr/IMG/mp4/mer_nf_2_1.mp4"
+    },
+    "ciel": {
+        name: "ciel",
+        url: "https://www.elix-lsf.fr/IMG/mp4/ciel_nm_1_1.mp4"
+    },
+    "pluie": {
+        name: "pluie",
+        url: "https://www.elix-lsf.fr/IMG/mp4/pluie-2.mp4"
+    },
+    "douche": {
+        name: "douche",
+        url: "https://www.elix-lsf.fr/IMG/mp4/douche_nf_1_1.mp4"
+    },
+    "guitare": {
+        name: "guitare",
+        url: "https://www.elix-lsf.fr/IMG/mp4/guitare_nf_1_1.mp4"
+    },
+    "violon": {
+        name: "violon",
+        url: "https://www.elix-lsf.fr/IMG/mp4/violon_nm_1_1.mp4"
+    },
+    "travail": {
+        name: "travail",
+        url: "https://www.elix-lsf.fr/IMG/mp4/travail-2.mp4"
+    },
+    "quel": {
+        name: "quel",
+        url: "https://www.elix-lsf.fr/IMG/mp4/quel_adj_1_1.mp4"
+    },
+    "dentifrice": {
+        name: "dentifrice",
+        url: "https://www.elix-lsf.fr/IMG/mp4/dentifrice_nm_1_6.mp4"
+    },
     // "":{name:"",url:""},
+    // "":{name:"",url:""},
+    // bouclé
+    // tresses
+    // ondulé
+    // court
+    "faire de la corde à sauter": {
+        name: "faire de la corde à sauter",
+        url: ""
+    },
+    "brosse à dents": {
+        name: "brosse à dents",
+        url: ""
+    },
+    "dent": {
+        name: "dent",
+        url: ""
+    },
     "boucle d'oreille": {
         name: "boucle d'oreille",
         url: ""
     },
     "menton": {
         name: "menton",
-        url: ""
-    },
-    "hache": {
-        name: "hache",
         url: ""
     },
     "petit": {
@@ -432,10 +577,8 @@ VOCABULARY = {
         name: "entendant",
         url: ""
     }
-
 };
 
-// "":{name:"",url:""},
 
 LESSONS = {
     "Seance 1": {
@@ -466,6 +609,13 @@ LESSONS = {
             "voiture",
             "eau",
             "boisson",
+            "question",
+            "signe",
+            "avant",
+            "maison",
+            "sous-titre",
+            "télévision",
+            "traducteur"
         ]
     },
     "Seance 2": {
@@ -483,7 +633,34 @@ LESSONS = {
             "sac à dos",
             "pêcher (à la ligne)",
             "bouteille",
-            "soif"
+            "soif",
+            "avion",
+            "fleur",
+            "réfrigérateur",
+            "congélateur",
+            "table",
+            "siège",
+            "livre",
+            "indien d'Amérique",
+            "vache",
+            "taureau",
+            "boiter",
+            "chat",
+            "scie",
+            "sucette",
+            "glace",
+            "loupe",
+            "bowling",
+            "après",
+            "partir",
+            "hache",
+            "peindre",
+            "bateau",
+            "pluie",
+            "douche",
+            "violon",
+            "dentifrice",
+            "brosse à dents"
         ]
     },
     "Seance 3": {
@@ -509,7 +686,17 @@ LESSONS = {
             "aimer",
             "apprécier",
             "détester",
-            "ne pas aimer"
+            "ne pas aimer",
+            "compris",
+            "pareil",
+            "différent",
+            "interdit",
+            "affiche",
+            "écrire",
+            "énerver",
+            "mer",
+            "ciel",
+            "quel"
         ]
     },
     "Seance 4": {
@@ -526,7 +713,6 @@ LESSONS = {
             "petit",
             "mince",
             "gros",
-            "très gros",
             "visage",
             "cheveu",
             "bouche",
@@ -536,7 +722,19 @@ LESSONS = {
             "langue",
             "sourcil",
             "cils",
-            "boucle d'oreille"
+            "lèvre",
+            "dent",
+            "corps",
+            "lunettes",
+            "éléphant",
+            "enceinte",
+            "forme",
+            "beau",
+            "moche",
+            "dessiner",
+            "lentille de contact",
+            "guitare",
+            "travail"
         ]
     }
     // "Seance ": {

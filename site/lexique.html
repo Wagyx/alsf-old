@@ -56,7 +56,8 @@
 						<div id="content">
 							<!-- Content -->
 							<article>
-								Cliquez sur un mot pour afficher la vidéo.
+								<p id="wordNum"></p>
+								<p>Cliquez sur un mot pour afficher la vidéo.</p>
 								<div id="listContent"></div>
 							</article>
 						</div>
@@ -66,23 +67,27 @@
 		</div>
 
 		<!-- Footer Wrapper -->
-        <div w3-include-html="../footer.html"></div>
+		<div w3-include-html="../footer.html"></div>
 
 	</div>
 
 	<!-- Scripts -->
 	<script type="text/javascript">
-        includeHTML();
-    </script>
-	<script type="text/javascript">
-        displayList();
-    </script>
-    <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/js/jquery.dropotron.min.js"></script>
-    <script src="../assets/js/browser.min.js"></script>
-    <script src="../assets/js/breakpoints.min.js"></script>
-    <script src="../assets/js/util.js"></script>
-    <script src="../assets/js/main.js"></script>
+		includeHTML();
+		displayList();
+		displayNum();
+
+		function displayNum() {
+			const content = document.getElementById("wordNum");
+			content.innerHTML = "Il y a " + Object.keys(VOCABULARY).length + " mots classés par ordre alphabétique";
+		}
+	</script>
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/jquery.dropotron.min.js"></script>
+	<script src="../assets/js/browser.min.js"></script>
+	<script src="../assets/js/breakpoints.min.js"></script>
+	<script src="../assets/js/util.js"></script>
+	<script src="../assets/js/main.js"></script>
 
 </body>
 

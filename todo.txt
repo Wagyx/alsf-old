@@ -1,5 +1,4 @@
-envoyer mail
 rajouter info supplémentaire : ressources, restau, services ...
-rajouter mots à la bdd
 finir entrainement reverse
+rajouter mots à la bdd
 icones catégories
