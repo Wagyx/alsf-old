@@ -13,8 +13,9 @@
     <link rel="icon" type="image/png" href="../favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="stylesheet" href="../css/gallery.css" />
     <script type="text/javascript" src="../js/database.js"></script>
-
+    <script type="text/javascript" src="../js/display.js"></script>
 </head>
 
 <body class="no-sidebar is-preload">
@@ -50,51 +51,34 @@
 
         <!-- Main Wrapper -->
         <div id="main-wrapper">
-            <div class="wrapper style2">
+            <div class="wrapper style3">
                 <div class="inner">
                     <div class="container">
-                        <div id="content">
+                        <div class="row">
+                            <div class="col-8 col-12-medium">
 
-                            <!-- Content -->
+                                <!-- Content -->
+                                <section class="box article-list">
 
-                            <article>
-                                <input type="button" value="Mot Aléatoire" onclick="randomWordAndVideo();" />
-                                <div id="namevideocontent"></div>
-                                <script>
-                                    function randomWordAndVideo() {
-                                        const keys = Object.keys(VOCABULARY);
-                                        const ind = Math.floor(Math.random() * keys.length);
-                                        const obj = VOCABULARY[keys[ind]];
-
-                                        const content = document.getElementById('namevideocontent');
-                                        let element = content.getElementsByClassName('list-item')
-                                        if (element.length > 0) {
-                                            const nameElement = document.getElementById("wordname");
-                                            nameElement.innerText = obj.name;
-                                            const videoElement = document.getElementById("wordvideo");
-                                            videoElement.src = obj.url;
-                                            videoElement.load();
-                                        } else {
-                                            element = document.createElement('div');
-                                            element.className = 'list-item';
-
-                                            const nameElement = document.createElement('p');
-                                            nameElement.id = "wordname";
-                                            nameElement.innerText = obj.name;
-                                            element.appendChild(nameElement);
-                                            const videoElement = document.createElement('video');
-                                            videoElement.id = "wordvideo";
-                                            videoElement.src = obj.url;
-                                            videoElement.controls = true;
-                                            videoElement.width = 500;
-                                            element.appendChild(videoElement);
-                                            content.appendChild(element);
-                                            videoElement.load();
-                                        }
-
-                                    }
-                                </script>
-                            </article>
+                                    <article>
+                                        <center>
+                                            <h3>Trouve le signe correspondant au mot affiché</h3>
+                                            <input type="button" value="Mot Aléatoire" onclick="randomWord();" />
+                                            <div id="randomWordContent">
+                                            </div>
+                                        </center>
+                                    </article>
+                                    <article>
+                                        <center>
+                                            <h3>Trouve le mot correspondant au signe affiché</h3>
+                                            <input type="button" value="Signe Aléatoire" onclick="randomSign();" />
+                                            <input type="button" value="Réponse" onclick="answerSign();" />
+                                            <div id="randomSignContent">
+                                            </div>
+                                        </center>
+                                    </article>
+                                </section>
+                            </div>
 
                         </div>
                     </div>
@@ -110,6 +94,100 @@
     <!-- Scripts -->
     <script type="text/javascript">
         includeHTML();
+    </script>
+    <script>
+        function makeWordElement(name, id) {
+            const nameElement = document.createElement('p');
+            nameElement.id = id;
+            nameElement.innerText = name;
+            return nameElement;
+        }
+
+        function makeVideoElement(url, id) {
+            const element = document.createElement('video');
+            element.id = id;
+            element.src = url;
+            element.controls = true;
+            return element;
+        }
+
+
+        function randomWord() {
+            const keys = Object.keys(VOCABULARY);
+            let ind = Math.floor(Math.random() * keys.length);
+            let obj = VOCABULARY[keys[ind]];
+            // ignore word with no url
+            while (obj.url == "") {
+                ind = Math.floor(Math.random() * keys.length);
+                obj = VOCABULARY[keys[ind]];
+            }
+
+            const content = document.getElementById('randomWordContent');
+            let element = content.getElementsByClassName('list-item')
+            if (element.length > 0) {
+                const nameElement = document.getElementById("wordName");
+                nameElement.innerText = obj.name;
+                const videoElement = document.getElementById("wordVideo");
+                videoElement.src = obj.url;
+                videoElement.load();
+            } else {
+                element = document.createElement('div');
+                element.className = 'list-item';
+                element.style.width = "550px";
+                content.appendChild(element);
+
+                const nameElement = makeWordElement(obj.name, "wordName")
+                element.appendChild(nameElement);
+
+                const videoElement = makeVideoElement(obj.url, "wordVideo")
+                videoElement.loop = true;
+                videoElement.load();
+                element.appendChild(videoElement);
+            }
+
+        }
+
+        function randomSign() {
+            const keys = Object.keys(VOCABULARY);
+            let ind = Math.floor(Math.random() * keys.length);
+            let obj = VOCABULARY[keys[ind]];
+            // ignore word with no url
+            while (obj.url == "") {
+                ind = Math.floor(Math.random() * keys.length);
+                obj = VOCABULARY[keys[ind]];
+            }
+
+            const content = document.getElementById('randomSignContent');
+            let element = content.getElementsByClassName('list-item')
+            if (element.length > 0) {
+                const nameElement = document.getElementById("signName");
+                nameElement.innerText = obj.name;
+                nameElement.style.visibility = "hidden";
+                const videoElement = document.getElementById("signVideo");
+                videoElement.src = obj.url;
+                videoElement.load();
+            } else {
+                element = document.createElement('div');
+                element.className = 'list-item';
+                element.style.width = "550px";
+                content.appendChild(element);
+
+                const nameElement = makeWordElement(obj.name, "signName")
+                element.appendChild(nameElement);
+                nameElement.style.visibility = "hidden";
+
+                const videoElement = makeVideoElement(obj.url, "signVideo")
+                videoElement.autoplay = true;
+                videoElement.loop = true;
+                videoElement.load();
+                element.appendChild(videoElement);
+            }
+
+        }
+
+        function answerSign() {
+            document.getElementById("signName").style.visibility = "visible";
+        }
     </script>
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/js/jquery.dropotron.min.js"></script>

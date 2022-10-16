@@ -541,6 +541,7 @@ VOCABULARY = {
     // tresses
     // ondulé
     // court
+    // révision
     "faire de la corde à sauter": {
         name: "faire de la corde à sauter",
         url: ""
