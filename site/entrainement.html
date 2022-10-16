@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="../assets/css/main.css" />
     <link rel="stylesheet" href="../css/gallery.css" />
     <script type="text/javascript" src="../js/database.js"></script>
-    <script type="text/javascript" src="../js/display.js"></script>
 </head>
 
 <body class="no-sidebar is-preload">
@@ -38,7 +37,7 @@
                                 <li class="current_page_item"><a href="../index.html">Accueil</a></li>
                                 <li><a href="seances.html">Séances</a></li>
                                 <li><a href="lexique.html">Lexique</a></li>
-                                <li><a href="random.html">Entraînement</a></li>
+                                <li><a href="entrainement.html">Entraînement</a></li>
                                 <!-- <li><a href="/site/index.html">Index</a></li> -->
                             </ul>
                         </nav>
@@ -186,7 +185,10 @@
         }
 
         function answerSign() {
-            document.getElementById("signName").style.visibility = "visible";
+            const element = document.getElementById("signName");
+            if (element){
+                element.style.visibility = "visible";
+            }
         }
     </script>
     <script src="../assets/js/jquery.min.js"></script>

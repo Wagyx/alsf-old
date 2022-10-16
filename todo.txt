@@ -1,4 +1,3 @@
 rajouter info supplémentaire : ressources, restau, services ...
-finir entrainement reverse
 rajouter mots à la bdd
 icones catégories
