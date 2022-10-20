@@ -563,6 +563,67 @@ VOCABULARY = {
     // ondulé
     // court
     // caméra
+    // manga
+    // Bande dessinée
+    // Johnny Hallyday
+    "noir (de peau)": {
+        name: "noir (de peau)",
+        url: "https://www.elix-lsf.fr/IMG/mp4/noir_nprop_1_6.mp4"
+    },
+    "la joue": {
+        name: "la joue",
+        url: "https://www.elix-lsf.fr/IMG/mp4/joue_nf_1_1.mp4"
+    },
+    "Etats-unis": {
+        name: "Etats-unis",
+        url: "https://www.elix-lsf.fr/IMG/mp4/etats-unis_nprop_1_6.mp4"
+    },
+    "bravo": {
+        name: "bravo",
+        url: "https://www.elix-lsf.fr/IMG/mp4/00074-4.mp4"
+    },
+    "France": {
+        name: "France",
+        url: "https://www.elix-lsf.fr/IMG/mp4/france_nprop_10_6.mp4"
+    },
+    "front": {
+        name: "front",
+        url: "https://www.elix-lsf.fr/IMG/mp4/00220.mp4"
+    },
+    "théâtre": {
+        name: "théâtre",
+        url: "https://www.elix-lsf.fr/IMG/mp4/theatre_nm_1_1.mp4"
+    },
+    "comédien": {
+        name: "comédien",
+        url: "https://www.elix-lsf.fr/IMG/mp4/comedien_n_1_1_copie.mp4"
+    },
+    "président": {
+        name: "président",
+        url: "https://www.elix-lsf.fr/IMG/mp4/00039-2.mp4"
+    },
+    "république": {
+        name: "république",
+        url: "https://www.elix-lsf.fr/IMG/mp4/republique_nf_1_1.mp4"
+    },
+    "policier": {
+        name: "policier",
+        url: "https://www.elix-lsf.fr/IMG/mp4/00005.mp4"
+    },
+    "mort": {
+        name: "mort",
+        url: "https://www.elix-lsf.fr/IMG/mp4/mort_adj_2_1.mp4"
+    },
+    "vivant": {
+        name: "vivant",
+        url: "https://www.elix-lsf.fr/IMG/mp4/vivant_adj_2_1.mp4"
+    },
+    "film": {
+        name: "film",
+        url: "https://www.elix-lsf.fr/IMG/mp4/film_nm_2_1.mp4"
+    },
+
+
 
     "faire de la corde à sauter": {
         name: "faire de la corde à sauter",
@@ -758,6 +819,25 @@ LESSONS = {
             "lentille de contact",
             "guitare",
             "travail"
+        ]
+    },
+    "Seance 5": {
+        name: "Célébrités",
+        words: [
+            "noir (de peau)",
+            "la joue",
+            "Etats-unis",
+            "bravo",
+            "France",
+            "front",
+            "théâtre",
+            "comédien",
+            "président",
+            "république",
+            "policier",
+            "mort",
+            "vivant",
+            "film"
         ]
     }
     // "Seance ": {
