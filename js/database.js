@@ -555,17 +555,6 @@ VOCABULARY = {
         name: "rasoir",
         url: "https://www.elix-lsf.fr/IMG/mp4/00340.mp4"
     },
-    // "":{name:"",url:""},
-    // "":{name:"",url:""},
-
-    // bouclé
-    // tresses
-    // ondulé
-    // court
-    // caméra
-    // manga
-    // Bande dessinée
-    // Johnny Hallyday
     "noir (de peau)": {
         name: "noir (de peau)",
         url: "https://www.elix-lsf.fr/IMG/mp4/noir_nprop_1_6.mp4"
@@ -622,6 +611,47 @@ VOCABULARY = {
         name: "film",
         url: "https://www.elix-lsf.fr/IMG/mp4/film_nm_2_1.mp4"
     },
+    "chant": {
+        name: "chant",
+        url: "https://www.elix-lsf.fr/IMG/mp4/chant_nm_1_6-2.mp4"
+    },
+    "chantsigne": {
+        name: "chantsigne",
+        url: "https://www.elix-lsf.fr/IMG/mp4/00862.mp4"
+    },
+    "danse": {
+        name: "danse",
+        url: "https://www.elix-lsf.fr/IMG/mp4/danse_nf_2_6-3.mp4"
+    },
+    "musclé": {
+        name: "musclé",
+        url: "https://www.elix-lsf.fr/IMG/mp4/muscle_adj_1_1.mp4"
+    },
+    "couronne": {
+        name: "couronne",
+        url: "https://www.elix-lsf.fr/IMG/mp4/couronne_nf_1_2.mp4"
+    },
+    "roi": {
+        name: "roi",
+        url: "https://www.elix-lsf.fr/IMG/mp4/roi_nm_1_1.mp4"
+    },
+    "prince": {
+        name: "prince",
+        url: "https://www.elix-lsf.fr/IMG/mp4/prince_nm_1_1.mp4"
+    },
+    "caméscope/caméra": {
+        name: "caméscope/caméra",
+        url: "https://www.elix-lsf.fr/IMG/mp4/camescope_nm_1_1.mp4"
+    },
+    // "":{name:"",url:""},
+    // "":{name:"",url:""},
+    // bouclé
+    // tresses
+    // ondulé
+    // court
+    // manga
+    // Bande dessinée
+    // Johnny Hallyday
 
 
 
@@ -837,7 +867,15 @@ LESSONS = {
             "policier",
             "mort",
             "vivant",
-            "film"
+            "film",
+            "chant",
+            "chantsigne",
+            "danse",
+            "musclé",
+            "couronne",
+            "roi",
+            "prince",
+            "caméscope/caméra"
         ]
     }
     // "Seance ": {
