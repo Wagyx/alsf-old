@@ -652,7 +652,7 @@ VOCABULARY = {
     // manga
     // Bande dessinée
     // Johnny Hallyday
-
+    // canada
 
 
     "faire de la corde à sauter": {
